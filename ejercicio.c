@@ -31,7 +31,7 @@ void ingresarProducto(struct Producto *p)
     // Consumir el carácter de nueva línea pendiente en el búfer
     getchar();
 }
-// Función para imprimir los datos de un producto 
+// Función para imprimir los datos de un producto
 void imprimirProducto(const struct Producto *p)
 {
     printf("\nInformación del producto: ");
@@ -41,7 +41,6 @@ void imprimirProducto(const struct Producto *p)
     printf("Cantidad: %d, ", p->cantidad);
     printf("Precio de compra: %.2f\n", p->precioCompra);
 }
-
 
 int main()
 {
